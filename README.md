@@ -100,7 +100,7 @@ README.md
 ### 🧪 Sample Console Output
 
 
-Please find below a sample console output. *(You can insert your screenshot below this section.)*
+Please find below a sample console output. 
 
 ![Console Output Screenshot](https://github.com/user-attachments/assets/e276a385-8ebf-4072-b2e1-ff847833d2d3)
 
