@@ -1,4 +1,4 @@
-public class app {
+public class Main {
 
 
     public static void main(String[] args) {
@@ -70,11 +70,9 @@ public class app {
             System.out.println(productQuantity + "X" + " "
                     +productName+ "\t " + productWeight + "g");
         }
-        if (totalWeight >= 1000) {
+
             System.out.println("Total package weight " + totalWeight / 1000 + "Kg\n");
-        } else {
-            System.out.println("Total package weight " + totalWeight + "g\n");
-        }
+
 
         System.out.println("** Checkout receipt **");
         for (int i = 0; i < cart.getShippableItems().size(); i++) {

@@ -46,6 +46,7 @@ public class Cart {
             } else if (Objects.equals(product.getName().toLowerCase(), productName.toLowerCase()) && quantity > product.getQuantity()) {
                 System.out.println("Error this Products is Out of Stock Or Expired");
 productNotFound = false;
+break;
             }
         }
 
